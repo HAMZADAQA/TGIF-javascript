@@ -1,0 +1,271 @@
+
+#envelope{
+position: absolute;
+top: 4%;
+left: 83%;
+}
+#info{
+    position: absolute;
+    top: 4%;
+    left: 85%; 
+}
+#TGIF{
+    margin: 0px 0px 0px 95px;
+}
+
+#TGIF2{
+    position:absolute;
+    left: 60%;
+    top: 29%;
+}
+#navegacion {
+    width: 85%;
+    margin: 0px 0px 0px 99px; 
+    background-color: rgba(0,0,0,.125);
+}
+
+.navbar{
+    background-color:rgba(0,0,0,.125)important; 
+}
+
+#navegacion a:hover {
+    
+    background-color: #f5f5f5
+}
+#accordion{
+    width: 50%;
+    margin: 20px 0px 0px 99px;
+}
+#linkcolor a{
+    color:black;
+}
+
+#footer {
+    width: 85%;
+    margin: 20px 0px 0px 99px;
+   background-color: #f8f9fa;
+}
+#table1{
+    width: 85%;
+    margin: 20px 0px 0px 99px;
+    
+}
+#senatehtml2{
+    width: 85%;
+    margin: 20px 0px 40px 99px; 
+}
+#footer2{
+    width: 85%;
+    margin: 20px 0px 0px 99px;
+}
+#Congress{
+    width: 85%;
+    margin: 20px 0px 40px 99px;
+}
+#tableHome{
+    width: 85%;
+    margin: 20px 0px 0px 99px;
+    
+}
+
+#container-fluid{
+    display:flex;
+    justify-content: space-between;
+}
+#hold{
+    width: 45%;
+    margin: 30px 0px 0px 99px;
+    
+}
+#noserr{
+    width: 35%;;
+    margin: 70px 130px 0px 0px;
+}
+#noserr h4 {
+    background-color:  #f5f5f5;
+text-align: center;
+padding: 20px;
+font-style: italic;
+}
+.tableLast{
+    width: 40%;
+    margin: 0px 0px 0px 99px;
+    
+
+}
+.tableMost{
+    width: 40%;
+    margin: 0px 130px 0px 0px;
+}
+.contninartablesLastMost{
+display:flex;
+justify-content: space-between;
+margin: 40px 0px 0px 0px;
+}
+.contninartablesLastMost h4 {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    
+}
+h4{
+    font-style: italic;
+
+}
+
+#Downfooter{
+width: 85%;
+margin: 20px 0px 0px 99px;
+}
+#Housefooter{
+    width: 85%;
+    margin: 20px 0px 0px 99px; 
+    }
+#loyaltysenatefooter{
+width: 85%;
+margin: 20px 0px 0px 99px;
+}
+
+#far{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 150px 0px 99px;
+    background-color: #f5f5f5;
+    height: 70px;
+    width: 85%;
+    padding: 17px 70px ;
+    
+}
+#republican2{
+    margin: 0px 7px ;
+}
+#democrat2{
+    margin: 0px 7px ;
+}
+#independent2{
+    margin: 0px 7px ;
+}
+#theSenateFilters{
+    width: 220px;
+    height: 35px;
+    background-color: #5bc0de;
+    display: inline-block;
+    font-size: 18px;
+    color : snow;
+    font-style: italic;
+}
+.scrulltable{
+    width: 85%;
+   height: 300px;
+   overflow-y: auto;
+   margin: 0px 0px 0px 90px;
+}
+
+
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    margin: -75px 0 0 -75px;
+    border: 8px solid lightgray;
+    border-radius: 50%;
+    border-top-color: #3399ff;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
+}
+
+#filter1{
+    width: 220px;
+    height: 35px;
+    background-color: #5bc0de;
+    display: inline-block;
+    font-size: 18px;
+    color : snow;
+    font-style: italic;
+}
+#repCheck{
+ margin: 0px 7px ;
+} 
+#Check {
+margin: 0px 7px ;
+}
+#rep{
+margin: 0px 7px ;
+}
+h2{
+    font-style: italic;
+}
+#table1 th {
+    background-color: #f5f5f5;;
+    font-size: 10;
+    font-style: italic;
+}
+#tableHome th{
+background-color: #f5f5f5;;
+font-size: 10;
+font-style: italic;
+}
